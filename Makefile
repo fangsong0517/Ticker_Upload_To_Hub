@@ -14,4 +14,4 @@ all:
 		-ldflags="-X main.BinVersion=$(VERSION) -X main.CommitID=$(COMMITID) -X main.BuildTime=$(TIME) -X \"main.GoVersion=$(GOVERSION)\"" .
 	cp $(SERVER_NAME) $(PROGRAM) 
 clean:
-	rm -rf bin/* log/*
+	rm -rf bin/ticker-upload-to-hub* log/*
