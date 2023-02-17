@@ -1,0 +1,5 @@
+tool:
+  interval: 10s
+shell:
+  path: ../conf/
+  name: move_upload.sh
