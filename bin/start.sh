@@ -1,0 +1,1 @@
+nohup ./ticker-upload-to-hub >> ../log/ticker-upload-to-hub.log 2>&1 &
